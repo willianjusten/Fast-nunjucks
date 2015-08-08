@@ -1,0 +1,25 @@
+{
+  "name": "Fast-nunjucks",
+  "version": "0.0.1",
+  "description": "A simple boilerplate using nunjucks as a template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willianjusten/Fast-nunjucks.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "node",
+    "gulp",
+    "stylus"
+  ],
+  "author": "Willian Justen de Vasconcellos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willianjusten/Fast-nunjucks/issues"
+  },
+  "homepage": "https://github.com/willianjusten/Fast-nunjucks"
+}
