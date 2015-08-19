@@ -1,4 +1,4 @@
-![Fast Nunjucks](/build/img/fast-logo.png)
+![Fast Nunjucks](/build/img/fast-nunjucks-logo.png)
 
 ---
 
