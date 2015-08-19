@@ -26,7 +26,7 @@ gulp.task('nunjucks', function(){
         .pipe(nunjucks({
             searchPaths: ['src/templates']
         }))
-        .pipe(minifyHtml())
+        .pipe(gulpif(env.p, minifyHtml()))
         .pipe(gulp.dest('build/'));
 });
 
