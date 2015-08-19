@@ -64,3 +64,9 @@ new_project -
 - `gulp imagemin`:compress image files
 - `gulp watch`: call for watch files
 - `gulp -p`: minify all files for production
+
+### License
+
+This boilerplate is free and open source software, distributed under the The MIT License. So feel free to use this to create your site without linking back to me or using a disclaimer.
+
+If you’d like to give me credit somewhere on your blog or tweet a shout out to [@willian_justen](https://twitter.com/willian_justen), that would be pretty sweet.
