@@ -26,6 +26,7 @@
     "autoprefixer-stylus": "^0.7.1",
     "browser-sync": "^2.8.2",
     "gulp": "^3.9.0",
+    "gulp-cache": "^0.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-if": "^1.2.5",
     "gulp-imagemin": "^2.3.0",

@@ -16,6 +16,7 @@ var env         = require('minimist')(process.argv.slice(2)),
     jeet        = require('jeet'),
     rupture     = require('rupture'),
     koutoSwiss  = require('kouto-swiss'),
+    cache       = require('gulp-cache'),
     prefixer    = require('autoprefixer-stylus'),
     imagemin    = require('gulp-imagemin');
 
@@ -54,7 +55,7 @@ gulp.task('stylus', function(){
 gulp.task('imagemin', function() {
     return gulp.src('src/img/**/*')
         .pipe(plumber())
-        .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+        .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
         .pipe(gulp.dest('build/img'));
 });
 
